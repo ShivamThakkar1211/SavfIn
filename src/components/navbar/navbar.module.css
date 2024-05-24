@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7vh;
+    width: 100%;
+    padding:0 4rem;
+}
+.logo{
+    position:relative;
+    height: 25vh;
+    width: 32vh;
+    top: -8vh;
+    left: -2vh;
+}
+.link{
+    display: flex;
+}
