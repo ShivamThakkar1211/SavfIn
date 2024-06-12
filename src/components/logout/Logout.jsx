@@ -11,6 +11,7 @@ function Logout() {
       await axios.get('/api/users/logout');
       console.log("Logout successful");
       router.push("/login");
+      // window.location.reload();
     } catch (error) {
       console.log(error.message);
     }

@@ -3,7 +3,7 @@ import React from 'react'
 import styles from "./home.module.css"
 import { ReactTyped } from "react-typed";
 import Image from "next/image"
-import { motion } from "framer-motion"
+
 
 function page() {
   return (

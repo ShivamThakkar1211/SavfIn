@@ -11,6 +11,7 @@
 }
 body{
     background-color:#101010;
+    overflow-x: hidden;
 }
 .container{
     /* min-width: 97vw; */

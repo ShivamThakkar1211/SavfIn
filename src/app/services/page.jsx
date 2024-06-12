@@ -6,7 +6,7 @@ const Card = () => {
   useEffect(() => {
     async function fetchData() {
       try {
-        const res = await fetch("https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=e13ba0ecc5d643f1a7f8189dfcafd005");
+        const res = await fetch("https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=e13ba0ecc5d643f1a7f8189dfcafd005" , {next:{revalidate:3600}});
         const data = await res.json();
         setArticles(data.articles || []);
       } catch (error) {

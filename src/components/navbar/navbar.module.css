@@ -15,4 +15,8 @@
 }
 .link{
     display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 4em;
+    font-size: 20px;
 }
